@@ -1,0 +1,25 @@
+h2{
+    color: #ff0000;
+    position: absolute;
+    top: 125px;
+    left: 110px;
+}
+.container{
+    position: relative;
+    margin-top: 30px;
+    border: 2px solid;
+    background-color:aqua ;
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+.texto{
+    color:#ff0000;
+    font-size: 22px;
+}

@@ -1,0 +1,130 @@
+/* Reset de estilos para garantir uma base consistente */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos globais */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+img.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Estilos do banner */
+.banner1, .banner2, .banner3, .banner4, .banner5 {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.banner1 h1, .banner2 h3, .banner3 h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner2 h3, .banner3 h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Estilos dos textos */
+.texto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.texto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos do rodapé */
+.rodape {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.rodape p {
+    margin-bottom: 10px;
+}
+
+.rodape span {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+/* Estilos para a lista de horários */
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.lista h3 {
+    font-weight: bold;
+}
+
+/* Estilos para o mapa */
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* Estilos para links */
+a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

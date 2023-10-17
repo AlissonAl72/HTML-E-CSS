@@ -1,0 +1,33 @@
+.LISTA {
+max-width: 425px;
+border: 5px solid black; 
+padding: 20px;
+}
+
+.LISTA h2 {
+text-align: center; 
+font-size: 40px; 
+margin-bottom: 20px;
+}
+
+.LISTA li span {
+     font-size: 40px;
+}
+
+.LISTA li p { 
+    width: 250px; 
+    font-size: 18px; 
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.LISTA li small{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.LISTA li {
+    position: relative;
+     list-style: none;
+}

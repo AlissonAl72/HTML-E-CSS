@@ -1,0 +1,20 @@
+h1 {
+  font-size: 48px;
+  font-family: Verdana;
+  color:black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  color: gray;
+  
+}
+p {
+  font-size: 20px;
+  font-family: verdana;
+}
+
+scan {
+  font-weight: bold;
+}

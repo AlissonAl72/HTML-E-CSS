@@ -1,0 +1,169 @@
+/*body{ 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+}*/
+/*efeitos globais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.topo {
+    width: 170%;
+    height: 50px;
+    position: fixed; 
+    z-index: 1;
+    background-color: #8D6D36;
+    top: 0;
+}
+.img {
+    width: 70px;
+    margin: 1px;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
+/*texto do inicio*/
+
+div h1{
+    font-family: 'Fraunces';
+    font-size: 380%;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding:  20%;
+    letter-spacing: 10px;
+    
+}
+
+/*texto do meio das imagens*/
+
+.tm {
+        text-align: center;
+        color: white;
+        font-family: 'Fraunces', serif;
+        font-size: 20px;
+        background-color: #5c4825;
+        font-weight: normal;
+        position: absolute;
+        margin-top: 300px;
+        margin-bottom: 300px;
+        margin-left: 510px;
+        margin-right: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+/*links*/
+.links{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #c4a47c;
+    text-shadow: 0.3em 0.3em 0.4em #342f28;
+    
+}
+
+.banner1 {
+    height: 100vh;
+    background-image: url("assets/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner2{
+    height: 100vh;
+    background-image: url("assets/parallax-imagem2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner3{
+    height: 100vh;
+    background-image: url("assets/parallax-imagem3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner4{
+    height: 100vh;
+    background-image: url("assets/parallax-imagem4.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner5{
+    height: 100vh;
+    background-image: url("assets/cafeteria.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.texto p{
+    padding: 80px 80px;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+}
+.texto h2{
+    text-align: center;
+
+    color: #c4a47c;
+    
+}
+
+.lista li { 
+    position: relative;
+    color: white;
+    left: 25%;
+}
+
+.lista li div { 
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    right: 50%;
+    left: 0%;
+    bottom: 50%;
+    background-color: #acacac;
+}
+
+.lista li p {
+    position: absolute;
+    top: 0;
+    right: 55%;
+}
+
+.rodape{
+    position: relative;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.rodape a{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+}
+span{
+    color:#c4a47c;
+}
+iframe {
+    padding-bottom: 20px;
+  }
